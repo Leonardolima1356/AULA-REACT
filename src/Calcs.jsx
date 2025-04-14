@@ -1,5 +1,5 @@
 import style from './Calcs.module.css'
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 
 export default function Calcs(){
     const [n1, setN1] = useState()
