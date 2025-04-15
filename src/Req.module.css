@@ -1,0 +1,23 @@
+.wrapPage{
+    padding-top: 1vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.wrapCard{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    padding-bottom: 3rem;
+}
+
+.titlename{
+    width: 100%;
+    text-align: center;
+}

@@ -15,13 +15,13 @@ export default function Calcs(){
         <br />
         <div>
             <h4>Digite o peso e altura</h4>
-            <input type="number" value={n1} onChange={(e) => setN1(e.target.value)} placeholder='Primeira Nota'/>
-            <input type="number" value={n2} onChange={(e) => setN2(e.target.value)} placeholder='Segunda Nota'/>
+            <input type="number" value={n1} onChange={(e) => setN1(e.target.value)} placeholder='Peso'/>
+            <input type="number" value={n2} onChange={(e) => setN2(e.target.value)} placeholder='Altura'/>
         </div>
         <div>
-            <h4>A Média</h4>
+            <h4>O IMC é</h4>
             <p>
-                <button onClick={somar}>Somar</button>
+                <button onClick={somar}>IMC</button>
                 {respImc <= 7 ? "Reprovado" : "Aprovado"}
                 <br />
                 {!isNaN(respImc) ? respImc : "Digite um número válido"}

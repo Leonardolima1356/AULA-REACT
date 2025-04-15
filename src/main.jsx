@@ -16,6 +16,7 @@ import Contact from './Contact.jsx';
 import Calcs from './Calcs.jsx';
 import Media from './Media.jsx'
 import IMC from './IMC.jsx'
+import Req from './Req.jsx'
 
 const router = createBrowserRouter([
   {
@@ -38,7 +39,11 @@ const router = createBrowserRouter([
   {
     path: "/imc",
     element: <IMC/>,
-  }
+  },
+  {
+    path: "/requisicao",
+    element: <Req/>
+  },
 ]);
 
 createRoot(document.getElementById('root')).render(
